@@ -1,5 +1,6 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
+import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Hero = () => {
   return (
@@ -31,8 +32,18 @@ const Hero = () => {
         justify-center'>
           <h2 className='uppercase tracking-widest 
           text-xs text-center text-blue-100 max-w-80'>
-            Dynamic Web Magic with Next.js
+            kuuleppas
           </h2>
+          <TextGenerateEffect
+          className='text-center text-[-40px]
+          md:text-5xl lg:text-6xl'
+          words='Nelly on KAKKAPYLLY'
+          />
+
+          <p className='text-center md:tracking-tighter 
+          mb-4 text-sm md:text-lg lg:text-2xl'>
+            ettäs tiiät
+          </p>
         </div>
       </div>
     </div>
